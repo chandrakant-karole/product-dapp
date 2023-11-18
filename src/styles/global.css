@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: dodgerblue;
+}
+
+header h4{
+    color: #fff;
+    margin: 0;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h4{
+    color: #fff;
+    margin-bottom: .5em;
+}
+
+button.main{
+    cursor: pointer;
+    font-size: 18px;
+    padding: .5em 2em;
+    color: purple;
+    font-weight: bold;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+button.main.connected{
+    filter: invert(1);
+    border: 1px solid #000;
+    cursor: not-allowed;
+}
+button.main.connected:hover{
+    color: #000;
+}
+
+button.main:hover{
+    background: transparent;
+    color: #fff;
+}
+
+.product_card .card-img-top{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
